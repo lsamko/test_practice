@@ -2,9 +2,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ConsumerInterface {
+public class Consumer_Accept {
+
+    // Consumer's accept() method
+
     public static void main(String[] args) {
-        // ConsumerInterface to display a number
+        // Consumer_Accept to display a number
         Consumer<Integer> display = a -> System.out.println(a);
 
         // Implement display using accept()
@@ -30,7 +33,6 @@ public class ConsumerInterface {
         modify.accept(list);
         // Implement dispList using accept()
         dispList.accept(list);
-
 
     }
 }
